@@ -254,7 +254,7 @@ class ep5(tk.Frame):
 		tk.Label(self,text=" PLEASE INSERT YOUR FINGER INTO THE PULSE OXIMETER TILL THE VALUE\n APPEARS ON THE SCREEN",foreground="white",background="black",font='GALVJI 12').place(relx=0.5, rely=0.2, anchor='c')
 		tk.Label(self,text="OXYGEN SATURATION:",foreground="white",background="black",font='GALVJI 14').place(relx=0.4, rely=0.8, anchor='c')
 		tk.Label(self,text=str(oxyValue),foreground="white",background="black",font='GALVJI 14').place(relx=0.6, rely=0.8, anchor='c')
-		myimage=ImageTk.PhotoImage(Image.open("D:\study\\fever\Picture.png"))
+		myimage=ImageTk.PhotoImage(Image.open(".\Images\Picture.png"))
 		panel=tk.Label(self,image=myimage)
 		panel.photo=myimage
 		panel.place(relx=0.5, rely=0.5, anchor='c')
@@ -274,7 +274,7 @@ class rmfinger(tk.Frame):
 
 		tk.Label(self,text="YOU MAY NOW WITHDRAW YOUR FINGER",foreground="white",background="black",font='GALVJI 14').place(relx=0.5, rely=0.1, anchor='c')
 
-		myimage2=ImageTk.PhotoImage(Image.open("D:\study\\fever\\tick.png"))
+		myimage2=ImageTk.PhotoImage(Image.open(".\Images\tick.png"))
 		panel=tk.Label(self,image=myimage2,background='black')
 		panel.photo=myimage2
 		panel.place(relx=0.5, rely=0.5, anchor='c')
@@ -309,7 +309,7 @@ class process(tk.Frame):
 		# ttk.Label(self,text="PROCESSING RESULTS...",foreground="white",background="RED",font='GALVJI 16').place(relx=0.5, rely=0.6, anchor='c')
 	    
 		tk.Button(self,text="next",foreground="white",background="RED",font='GALVJI 16',command=lambda:controller.show_frame(suspect)).place(relx=0.5, rely=0.9, anchor='c')
-		myimage3=ImageTk.PhotoImage(Image.open("D:\study\\fever\\ok.png")) 
+		myimage3=ImageTk.PhotoImage(Image.open(".\Images\ok.png")) 
 		panel=tk.Label(self,image=myimage3,background='black') 
 		panel.photo=myimage3 
 		panel.place(relx=0.5, rely=0.5, anchor='c')
@@ -535,7 +535,7 @@ class hp5(tk.Frame):
 		tk.Label(self,text="बाजूमेरखेगए PULSE OXIMETER (नीलेरंग का यंत) मेअपनी उँगली डािलए और सीन पर आँ कडेआनेकी पतीका कीिजए ।",foreground="white",background="black",font='GALVJI 12').place(relx=0.5, rely=0.2, anchor='c')
 		tk.Label(self,text="OXYGEN SATURATION:",foreground="white",background="black",font='GALVJI 14').place(relx=0.4, rely=0.8, anchor='c')
 		tk.Label(self,text=str(oxyValue),foreground="white",background="black",font='GALVJI 14').place(relx=0.6, rely=0.8, anchor='c')
-		myimage=ImageTk.PhotoImage(Image.open("D:\study\\fever\Picture.png"))
+		myimage=ImageTk.PhotoImage(Image.open(".\Images\Picture.png"))
 		panel=tk.Label(self,image=myimage)
 		panel.photo=myimage
 		panel.place(relx=0.5, rely=0.5, anchor='c')
@@ -555,7 +555,7 @@ class hrmfinger(tk.Frame):
 
 		tk.Label(self,text="अब आप अपनी उँगली िनकाल सकतेहै।",foreground="white",background="black",font='GALVJI 14').place(relx=0.5, rely=0.1, anchor='c')
 
-		myimage2=ImageTk.PhotoImage(Image.open("D:\study\\fever\\tick.png"))
+		myimage2=ImageTk.PhotoImage(Image.open(".\Images\tick.png"))
 		panel=tk.Label(self,image=myimage2,background='black')
 		panel.photo=myimage2
 		panel.place(relx=0.5, rely=0.5, anchor='c')
@@ -590,7 +590,7 @@ class hprocess(tk.Frame):
 		# ttk.Label(self,text="PROCESSING RESULTS...",foreground="white",background="RED",font='GALVJI 16').place(relx=0.5, rely=0.6, anchor='c')
 	    
 		tk.Button(self,text="next",foreground="white",background="RED",font='GALVJI 16',command=lambda:controller.show_frame(hsuspect)).place(relx=0.5, rely=0.9, anchor='c')
-		myimage3=ImageTk.PhotoImage(Image.open("D:\study\\fever\\okh.png")) 
+		myimage3=ImageTk.PhotoImage(Image.open(".\Images\okh.png")) 
 		panel=tk.Label(self,image=myimage3,background='black') 
 		panel.photo=myimage3 
 		panel.place(relx=0.5, rely=0.5, anchor='c')
